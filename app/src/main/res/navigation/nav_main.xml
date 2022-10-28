@@ -6,6 +6,10 @@
 
     <fragment
         android:id="@+id/emptyFragment"
-        android:name="com.example.baseandroid.view.empty.EmptyFragment"
+        android:name="com.example.hokenbox.view.empty.EmptyFragment"
         android:label="EmptyFragment" />
+
+    <action
+        android:id="@+id/actionToEmptyFragment"
+        app:destination="@+id/emptyFragment" />
 </navigation>
